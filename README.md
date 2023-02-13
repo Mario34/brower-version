@@ -37,5 +37,5 @@ versionCheck([
 
 ## 选项说明
 
-browser: 浏览器，可选值 `ie`, `edge`, `firefox`, `chrome`, `opera`, `safari`
-minVersion: 版本号格式 `*.*.*`
+- browser: 浏览器，可选值 `ie`, `edge`, `firefox`, `chrome`, `opera`, `safari`
+- minVersion: 版本号格式 `*.*.*`
