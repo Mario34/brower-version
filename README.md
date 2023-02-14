@@ -11,8 +11,12 @@
 <script>
 M34BV.versionCheck([
   {
-    browser: 'chrome',
+    browser: 'Chrome',
     minVersion: '88.0.0',
+  },
+  {
+    browser: 'IE',
+    minVersion: '12',
   },
 ], () => {
   console.log('浏览器版本太低了！！！')
