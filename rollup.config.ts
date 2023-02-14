@@ -1,5 +1,6 @@
 import { defineConfig } from 'rollup'
 import tsPlugin from '@rollup/plugin-typescript'
+import { terser } from 'rollup-plugin-terser'
 
 export default defineConfig([
   {
@@ -16,6 +17,7 @@ export default defineConfig([
       },
     ],
     plugins: [
+      terser(),
       tsPlugin({
         tsconfig: './tsconfig.json',
       }),

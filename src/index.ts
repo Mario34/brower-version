@@ -47,7 +47,7 @@ function versionToNumber(version: string, length: number, exponent: number) {
   return result
 }
 
-function versionCompare(version: string, targetVersion: string, exponent = 2) {
+export function versionCompare(version: string, targetVersion: string, exponent = 2) {
   if (!version || !targetVersion) {
     throw new Error('Need two versions to compare!')
   }

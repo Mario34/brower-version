@@ -27,8 +27,12 @@ import { versionCheck } from '@mario34/browser-version'
 
 versionCheck([
   {
-    browser: 'chrome',
+    browser: 'Chrome',
     minVersion: '88.0.0',
+  },
+  {
+    browser: 'IE',
+    minVersion: '12',
   },
 ], () => {
   console.log('浏览器版本太低了！！！')
@@ -37,5 +41,5 @@ versionCheck([
 
 ## 选项说明
 
-- browser: 浏览器，可选值 `ie`, `edge`, `firefox`, `chrome`, `opera`, `safari`
+- browser: 浏览器，可选值 `IE`, `Edge`, `firefox`, `Chrome`, `Opera`, `Safari`
 - minVersion: 版本号格式 `*.*.*`
