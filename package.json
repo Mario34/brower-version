@@ -1,6 +1,6 @@
 {
   "name": "@mario34/browser-version",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "browser version tool.",
   "main": "index.js",
   "scripts": {
