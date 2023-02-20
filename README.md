@@ -47,3 +47,9 @@ versionCheck([
 
 - browser: 浏览器，可选值 `IE`, `Edge`, `Firefox`, `Chrome`, `Opera`, `Safari`
 - minVersion: 版本号格式 `*.*.*`
+
+## 部分Chromium内核浏览器UA
+
+- 360极速浏览器12.2.1662.0： `Mozilla/5.0 (Macintosh; Intel Mac OS X -1_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36`
+- 2345浏览器： `Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36`
+- QQBrowser 10.5.3738.400： `Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3676.400 QQBrowser/10.5.3738.400`
