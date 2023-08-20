@@ -11,12 +11,6 @@
     "lint": "eslint --ext .ts src"
   },
   "license": "MIT",
-  "dependencies": {
-    "ali-oss": "^6.17.1",
-    "chalk": "^5.2.0",
-    "got": "^12.5.3",
-    "ora": "^6.1.2"
-  },
   "files": [
     "lib/*"
   ],

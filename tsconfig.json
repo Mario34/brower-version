@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
     "module": "ESNext",
-    "target": "es3",
+    "target": "ES3",
     "types": ["node"],
     "outDir": "./lib",
     "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
     "moduleResolution": "Node",
+    "ignoreDeprecations": "5.0",
   },
   "include": ["./src", "test/index.spec.js"],
   "exclude": [
